@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Bypass Zajuna SENA",
+  "version": "1.0",
+  "description": "Permite el acceso a Zajuna debido al error de bloqueo.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://zajuna.sena.edu.co/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
